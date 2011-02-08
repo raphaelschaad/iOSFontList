@@ -3,7 +3,7 @@ iOSFontList README
 
 Description
 -----------
-Displays all available font names and families on iOS in their corresponding font.
+Displays all available font names and families (typeface) on iOS in their corresponding font.
 
 The intention is to help developers choosing an appropriate font.
 
@@ -16,4 +16,4 @@ Screen Shots
 ![Screen Shot iPhone Retina](http://f.cl.ly/items/340F25440v0c1w0O2x1y/iOSFontListScreenShotPhoneRetina.png)
 
 
-Raphael Schaad, 2010
+Raphael Schaad, 2010-2011

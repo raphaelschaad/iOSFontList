@@ -3,10 +3,10 @@
 //  iOSFontList
 //
 //  Created by Raphael Schaad on 01.12.10.
-//  Copyright 2010 illuBits. All rights reserved.
 //
 
 
+// FL
 @class FontListViewController;
 
 
