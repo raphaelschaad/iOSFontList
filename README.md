@@ -11,9 +11,9 @@ To test the custom font support I added the great Inconsolata (released under th
 
 Screen Shots
 ------------
-![Screen Shot iPad](http://f.cl.ly/items/0X1T3g1H2q2F2H0J2S1D/iOSFontListScreenShotPad.png)
-![Screen Shot iPhone](http://f.cl.ly/items/2c0T413X2i0q342i3j2q/iOSFontListScreenShotPhone.png)
-![Screen Shot iPhone Retina](http://f.cl.ly/items/340F25440v0c1w0O2x1y/iOSFontListScreenShotPhoneRetina.png)
+![Screen Shot iPad](https://github.com/raphaelschaad/iOSFontList/raw/master/Misc/iOSFontListScreenShotPad.png)
+![Screen Shot iPhone](https://github.com/raphaelschaad/iOSFontList/raw/master/Misc/iOSFontListScreenShotPhone.png)
+![Screen Shot iPhone Retina](https://github.com/raphaelschaad/iOSFontList/raw/master/Misc/iOSFontListScreenShotPhoneRetina.png)
 
 
 Raphael Schaad, 2010-2011
