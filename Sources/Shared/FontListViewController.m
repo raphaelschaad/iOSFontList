@@ -68,8 +68,9 @@ static const CGFloat kFontMargin		= 5;
 		UIFont *font = [UIFont systemFontOfSize:labelFontSize];
 		
 		// Add a label to the scroll view with the font family name rendered in the default system font
-		CGSize labelSize = [familyName sizeWithFont:font];
-		CGRect labelFrame = CGRectMake(0, totalHeight, labelSize.width, labelSize.height);
+        NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+        CGSize labelSize = [familyName sizeWithAttributes:attrs];
+		CGRect labelFrame = CGRectMake(0, totalHeight, ceil(labelSize.width), ceil(labelSize.height));
 		UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
 		label.font = font;
 		label.text = familyName;
@@ -106,8 +107,9 @@ static const CGFloat kFontMargin		= 5;
 			UIFont *font = [UIFont fontWithName:fontName size:(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? kFontSizePad : kFontSizePhone];
 			
 			// Add a label to the scroll view with the font name rendered in the font
-			CGSize labelSize = [fontName sizeWithFont:font];
-			CGRect labelFrame = CGRectMake(kFontNameIndent, totalHeight, labelSize.width, labelSize.height);
+            NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+            CGSize labelSize = [fontName sizeWithAttributes:attrs];
+			CGRect labelFrame = CGRectMake(kFontNameIndent, totalHeight, ceil(labelSize.width), ceil(labelSize.height));
 			UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
 			label.font = font;
 			label.text = fontName;
@@ -128,14 +130,6 @@ static const CGFloat kFontMargin		= 5;
 	scrollView.contentSize = CGSizeMake(maxWidth, totalHeight);
 	scrollView.contentInset = UIEdgeInsetsMake(kMarginTop, kMarginLeft, kMarginBottom, 0);
 	scrollView.contentOffset = CGPointMake(-scrollView.contentInset.left, -scrollView.contentInset.top);
-}
-
-
-#pragma mark -
-#pragma mark UIViewController Method Overrides
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
 }
 
 
