@@ -10,6 +10,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		48601C6E23C1825B0030BFC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48601C6D23C1825B0030BFC6 /* Default-568h@2x.png */; };
 		878E9CF11301568B00D292DE /* NSString+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 878E9CF01301568B00D292DE /* NSString+RSAdditions.m */; };
 		87D0EFA112A5C98B00D0C223 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D0EF9112A5C98B00D0C223 /* MainWindow_iPad.xib */; };
 		87D0EFA212A5C98B00D0C223 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D0EF9312A5C98B00D0C223 /* MainWindow_iPhone.xib */; };
@@ -26,6 +27,7 @@
 		1D6058910D05DD3D006BFB54 /* iOSFontList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFontList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48601C6D23C1825B0030BFC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		878E9CEF1301568B00D292DE /* NSString+RSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSAdditions.h"; sourceTree = "<group>"; };
 		878E9CF01301568B00D292DE /* NSString+RSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSAdditions.m"; sourceTree = "<group>"; };
 		87D0EF9112A5C98B00D0C223 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				87D0EF9312A5C98B00D0C223 /* MainWindow_iPhone.xib */,
+				48601C6D23C1825B0030BFC6 /* Default-568h@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				87D0EFA112A5C98B00D0C223 /* MainWindow_iPad.xib in Resources */,
 				87D0EFA212A5C98B00D0C223 /* MainWindow_iPhone.xib in Resources */,
 				87D0EFA312A5C98B00D0C223 /* Inconsolata.otf in Resources */,
+				48601C6E23C1825B0030BFC6 /* Default-568h@2x.png in Resources */,
 				87D0F02212A5CE4700D0C223 /* FontListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
